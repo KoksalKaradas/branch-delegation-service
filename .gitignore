@@ -28,3 +28,11 @@ hs_err_pid*
 /target/classes/data.sql
 .idea/
 /.idea/.gitignore
+/target/branch-delegation-0.0.1-SNAPSHOT.jar.original
+/target/surefire-reports/com.sm.bd.branchdelegation.BranchDelegationApplicationTests.txt
+/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+/target/maven-archiver/pom.properties
+/target/surefire-reports/TEST-com.sm.bd.branchdelegation.BranchDelegationApplicationTests.xml

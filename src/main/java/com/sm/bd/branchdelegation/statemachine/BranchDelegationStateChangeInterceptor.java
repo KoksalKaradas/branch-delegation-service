@@ -3,6 +3,7 @@ package com.sm.bd.branchdelegation.statemachine;
 import com.sm.bd.branchdelegation.models.BranchDelegationEntity;
 import com.sm.bd.branchdelegation.repositories.BranchDelegationRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.Message;
 import org.springframework.statemachine.StateMachine;
 import org.springframework.statemachine.state.State;
@@ -11,6 +12,7 @@ import org.springframework.statemachine.transition.Transition;
 
 import java.util.Optional;
 
+@Configuration
 @RequiredArgsConstructor
 public class BranchDelegationStateChangeInterceptor extends StateMachineInterceptorAdapter<BranchDelegationState, BranchDelegationEvent> {
 

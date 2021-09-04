@@ -2,7 +2,6 @@ package com.sm.bd.branchdelegation.service.contract;
 
 import org.springframework.stereotype.Service;
 
-@Service
 public interface BranchDelegationService {
 
     String send(long appId);
